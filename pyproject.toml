@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "streamlitdemo"
+version = "0.1.0"
+description = "Showcasing my ability to program/ create a streamlit app."
+authors = ["KricejJanezMartin <jkricej@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+streamlit = "^1.33.0"
+llama-index = "^0.10.33"
+pinecone-client = {version = "^3.0.2", extras = ["grpc"]}
+llama-index-vector-stores-pinecone = "^0.1.6"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
