@@ -20,8 +20,8 @@ model = os.environ["OPENAI_GPT_MODEL"]
 
 st.set_page_config(page_title="Chat with the Huberman about sleep, powered by LlamaIndex", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
 openai.api_key = os.environ["OPENAI_API_KEY"]
-st.title("Chat with the Huberman about sleep, powered by LlamaIndex 💬🦙")
-st.info("Check out the full tutorial to build this app in our [blog post](https://blog.streamlit.io/build-a-chatbot-with-custom-data-sources-powered-by-llamaindex/)", icon="📃")
+st.title("Chat with the knowledge from Huberman lab podcast about sleep, powered by LlamaIndex 💬🦙")
+st.info("Check out the Huberman Lab podacst here [link](https://www.hubermanlab.com/)", icon="🎙️")
          
 # Initialize the chat messages history
 st.session_state.messages = st.session_state.get('messages', [

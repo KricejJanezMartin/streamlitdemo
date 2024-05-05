@@ -7,3 +7,5 @@ To run the script, simply execute the following command:
 ```bash
 streamlit run bot.py
 ```
+
+![Image Showcase](assets/image.png)
