@@ -5,7 +5,7 @@ This repository showcases my ability to deploy a simple Streamlit application. T
 To run the script, simply execute the following command:
     
 ```bash
-streamlit run bot.py
+streamlit run .\bot\bot.py
 ```
 
 ![Image Showcase](assets/image.png)
